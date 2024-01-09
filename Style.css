@@ -173,7 +173,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid red;
     margin: 0 auto;
 }
 .left-text {
