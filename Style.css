@@ -199,9 +199,9 @@ body{
     font-size: 20px;
 }
 .img-section-mid img {
-    width: 300px;
-    height: 300px;
-    border: 5px solid red;
+    width: 315px;
+    height: 310px;
+    border: 20px solid red;
     border-radius: 50%;
 }
 .right-text {
@@ -278,8 +278,7 @@ body{
 /* Discount Section CSS Ends Here */
 
 
-
-/* Portdolio Section CSS Start Here */
+/* Portfolio Section CSS Start Here */
 .portfolio-section {
     width: 1250px;
     margin: 0 auto;
@@ -316,7 +315,11 @@ body{
     width: 400px;
     height: 380px;
 }
-/* Portdolio Section CSS Ends Here */
+.card-section .card-1 img:hover{
+    background-color: #070211;
+    
+}
+/* Portfolio Section CSS Ends Here */
 
 /* Subscribe Section CSS Start Here */
 .subs-section {
@@ -406,6 +409,9 @@ body{
 .middle-part {
     text-align: center;
     margin: 30px;
+}
+.middle-part img {
+    padding: 0px 20px;
 }
 .lower-part {
     display: flex;
